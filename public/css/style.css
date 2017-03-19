@@ -1,0 +1,137 @@
+header.top,footer.top{
+	height: 100px;
+	background: #59407F;
+}
+footer.top h4{
+	text-align: center;
+	line-height:100px;
+	color: #fff;
+}
+section .content{
+	background: #DFF0D8;
+	margin-bottom:20px;
+
+}
+.box{
+	height: 120px;
+
+}
+.left{
+	border-right: 2px double green;
+}
+.box a{
+	display: block;
+	width:100px;
+	height:100px;
+	line-height: 100px;
+	float: left;
+	border: 1px solid #CC00CC;
+	border-radius:10px;
+	text-align: center;
+	font-weight: bold;
+	color: #660099;
+	margin: 10px;
+	margin-left: 50px;
+}
+#a1{
+background-image:url("../../public/images/adduser.png");
+}
+#a2{
+background-image:url("../../public/images/Client_list.png");
+}
+#a3{
+background-image:url("../../public/images/addproduct.png");
+}
+#a4{
+background-image:url("../../public/images/listpro.png");
+}
+#a5{
+background-image:url("../../public/images/addcate.png");
+}
+#a6{
+background-image:url("../../public/images/listcate.png");
+}
+/* style login */
+/* body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+} */
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* style add category */
+
+.addcate h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.addcate .selectContainer .form-control-feedback {
+    /* Adjust feedback icon position */
+    right: -15px;
+  }
+
+#erro{
+  text-align: center;
+  color:red;
+  font-size:15px;
+  font-weight: bold;
+}
+caption h3{
+  text-align: center;
+}
+
+.back a{
+  float:right;
+  display:block;
+  width:150px;
+  height:30px;
+  margin-bottom: 15px;
+  text-align:center;
+  line-height:30px;
+  border: 1px solid #000099;
+  border-radius:15px;
+  color: #fff;
+  background: #000099;
+  text-decoration:none;
+    box-shadow: 5px 5px 5px #000099;
+}
+.back a:hover{
+  color:#fff;
+  font-weight: bold;
+}
+
